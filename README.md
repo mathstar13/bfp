@@ -22,8 +22,8 @@ Nothing yet
 |`{`|Begin function|
 |`}`|End Function|
 |`^(x)`|Set the current working cell to `x`|
-|`^(\\)`|Set the current working cell to the value of the current cell|
-|`^(\\x)`|Set the current working cell to the value cell `x`|
+|`^(\)`|Set the current working cell to the value of the current cell|
+|`^(\x)`|Set the current working cell to the value cell `x`|
 |`=(x)`|Copy value of current cell to cell `x`|
 |`%`|Call Function at current cell|
 |`&`|Retain value of cell after function returns|
