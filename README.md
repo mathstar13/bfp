@@ -16,12 +16,23 @@ Nothing yet
 |`,`|Accept first byte of input, and place it in the current cell|
 |`[`|If the value of the current cell != zero, run until `]`|
 |`]`|Jump back to `[`|
+|`;`|Break Loop|
 |`(`|Add arguments to method|
 |`)`|End argument section|
 |`{`|Begin function|
 |`}`|End Function|
 |`^(x)`|Set the current working cell to `x`|
+|`^(\\)`|Set the current working cell to the value of the current cell|
+|`^(\\x)`|Set the current working cell to the value cell `x`|
 |`=(x)`|Copy value of current cell to cell `x`|
 |`%`|Call Function at current cell|
+|`&`|Retain value of cell after function returns|
+|`:`|Open Dev Help|
+|`}`|End Function|
+|`^(x)`|Set the current working cell to `x`|
+|`=(x)`|Copy value of current cell to cell `x` (Copy To)|
+|`@(x)`|Copy value from cell `x` to current cell (Copy From)|
+|`%`|Call Function at current cell|
+|`!(x)`|Call function at cell `x` **WITHOUT MOVING**|
 |`&`|Retain value of cell after function returns|
 |`:`|Open Dev Help|
